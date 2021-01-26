@@ -23,5 +23,5 @@ $google_client-> setRedirectUri ('http://localhost/googleconnect/');
 $google_client->addScope('email');
 
 $google_client->addScope ('profile');
- $google_client->setScopes ('https://www.googleapis.com/auth/user.gender.read');
+//  $google_client->setScopes ('https://www.googleapis.com/auth/user.gender.read');
 ?>
